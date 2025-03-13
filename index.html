@@ -4,20 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Стикеры ЫЫЫ</title>
+    <title>Стикеры</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <div id="sticky-container"> </div>
+    <div id="sticky-container">
     <div class="sticky-form">
-        <h1 id="h1">Давай поиграем?</h1>
-        <label for="stickytitle">Назови заметку или не назови</label>
+        <h1 id="h1">Чем займемся?</h1>
+        <label for="stickytitle">Назови заметку</label>
         <input type="text" name="stickytitle" id="stickytitle" />
-        <label for="stickytext">Текст заметки или текст</label>
+        <label for="stickytext">Текст заметки</label>
         <textarea name="stickytext" id="stickytext" cols="24" rows="10"></textarea>
         <button class="button" id="createbtn">Добавить</button>
     </div>
+<div id="trash-container">
+    <h3>Корзина</h3>
+    <div class="trash-content"></div>
+    <div><button id ='clearTrash'>Очистить корзину</button></div>
+</div>
+</div>
     <script src="/script.js"></script>
 </body>
 
